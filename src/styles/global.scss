@@ -1,2 +1,10 @@
 @use "./partials/variables" as *;
 @use "./partials/mixins" as *;
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

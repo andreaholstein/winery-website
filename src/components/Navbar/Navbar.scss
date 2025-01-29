@@ -1,0 +1,19 @@
+.navbar {
+  height: 3rem;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__wrap {
+    width: 100%;
+  }
+  &__list {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list-items {
+    padding: 0 1rem;
+  }
+}
