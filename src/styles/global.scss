@@ -1,10 +1,19 @@
 @use "./partials/variables" as *;
 @use "./partials/mixins" as *;
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
+  padding: 0;
   list-style: none;
 }

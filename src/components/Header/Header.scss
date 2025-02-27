@@ -1,3 +1,7 @@
+// --------- FXNALITY ---------
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/typography" as *;
+
 .header {
   background: linear-gradient(
       0deg,
@@ -11,9 +15,6 @@
   background-position: 50% 25%;
   box-sizing: border-box;
   color: aliceblue;
-  font-size: 3rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: oblique;
   display: flex;
   justify-content: flex-start;
   align-items: center;

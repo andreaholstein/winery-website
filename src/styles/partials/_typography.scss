@@ -1,0 +1,87 @@
+// --------- FXNALITY ---------
+@use "./mixins" as *;
+@use "./fonts" as *;
+
+h1 {
+  font-family: "Fleur de Leah", "Georgia", serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  @include tablet {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  // @include desktop {
+  //   font-size: 2.5rem;
+  //   line-height: 2.5rem;
+  // }
+}
+
+h2 {
+  font-family: "The Girl Next Door", "Georgia", serif;
+  font-size: 1.625rem;
+  line-height: 2.375rem;
+  @include tablet {
+    font-size: 3.25rem;
+    line-height: 4.125rem;
+  }
+  //   @include desktop {
+  //     font-size: 3.25rem;
+  //     line-height: 4.125rem;
+  //   }
+}
+
+h3 {
+  font-family: "Manjari Thin", "Lucida Sans", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  @include tablet {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+  // @include desktop {
+  //   font-size: 1.5rem;
+  //   line-height: 1.875rem;
+  // }
+}
+
+h4 {
+  font-family: "Manjari Bold", "Lucida Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  @include tablet {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+  }
+  // @include desktop {
+  //   font-size: 1.25rem;
+  //   line-height: 1.625rem;
+  // }
+}
+
+p {
+  font-family: "Manjari Regular", "Lucida Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  @include tablet {
+    font-size: 0.875rem;
+    line-height: 1.0938rem;
+  }
+  //   @include desktop {
+  //     font-size: 0.875rem;
+  //     line-height: 1.0938rem;
+  //   }
+}
+
+a {
+  font-family: "Manjari Bold", "Lucida Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  @include tablet {
+    font-size: 0.875rem;
+    line-height: 1.0938rem;
+  }
+  // @include desktop {
+  //   font-size: 0.875rem;
+  //   line-height: 1.0938rem;
+  // }
+}
